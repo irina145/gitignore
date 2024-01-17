@@ -1,5 +1,25 @@
+mv file.txt /path/to/your/repository
+mv file.rtf /path/to/your/repository
+mv archive.zip /path/to/your/repository
+
 start .gitignore 
    *.zip
+cd путь_к_папке_репозитория.
+   mv src/.gitignore .gitignore
+   move src\.gitignore .gitignore
+   
+git status
+   git add .gitignore
+   git add *.txt
+   
+   git commit -m "Добавлен файл .gitignore и отслеживание файлов с расширением .txt"
+   
+git checkout master
+git branch test
+git checkout test
+   git checkout master
+   
+
    
 
    
